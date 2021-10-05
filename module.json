@@ -13,7 +13,7 @@
 				{
   					"name": "jd-weird-world-edges",
   					"label": "JD Weird World Edges",
-  					"path": "packs/weird-world-edges.db",
+  					"path": "packs/jd-weird-world-edges.db",
   					"entity": "Item",
   					"system": "swade",
   					"module": "jd-weird-world"
@@ -21,7 +21,7 @@
 				{
   					"name": "jd-weird-world-hindrances",
   					"label": "JD Weird World Hindrances",
-  					"path": "packs/weird-world-hindrances.db",
+  					"path": "packs/jd-weird-world-hindrances.db",
   					"entity": "Item",
   					"system": "swade",
   					"module": "jd-weird-world"
