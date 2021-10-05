@@ -3,25 +3,73 @@
 	"title": "JD Weird World Imported Data",
 	"description": "A module of imported book data: Edges, Hindrances, Gear, etc.",
 	"manifest": "https://raw.githubusercontent.com/jondoud/jd-weird-world/master/module.json",
-  	"download": "https://github.com/jondoud/jd-weird-world/releases/download/v1.0.8/module.zip",
-  	"version": "1.0.8",
+  	"download": "https://github.com/jondoud/jd-weird-world/releases/download/v1.0.9/module.zip",
+  	"version": "1.0.9",
   	"url": "https://github.com/jondoud/jd-weird-world",
 	"author": "Jon Doud",
 	"minimumCoreVersion": "0.7.0",
 	"compatibleCoreVersion":"0.8.10",
 	"packs": [
 				{
-  					"name": "jd-weird-world-edges",
-  					"label": "JD Weird World Edges",
-  					"path": "packs/jd-weird-world-edges.db",
+  					"name": "jd-core-bestiary",
+  					"label": "JD Core Bestiary",
+  					"path": "packs/jd-core-bestiary.db",
   					"entity": "Item",
   					"system": "swade",
   					"module": "jd-weird-world"
 				}, 
 				{
-  					"name": "jd-weird-world-hindrances",
-  					"label": "JD Weird World Hindrances",
-  					"path": "packs/jd-weird-world-hindrances.db",
+  					"name": "jd-core-edges",
+  					"label": "JD Core Edges",
+  					"path": "packs/jd-core-edges.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				}, 
+				{
+  					"name": "jd-core-hindrances",
+  					"label": "JD Core Hindrances",
+  					"path": "packs/jd-core-hindrances.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				},
+				{
+  					"name": "jd-fantasy-bestiary",
+  					"label": "JD Fantasy Bestiary",
+  					"path": "packs/jd-fantasy-bestiary.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				}, 
+				{
+  					"name": "jd-horror-bestiary",
+  					"label": "JD Horror Bestiary",
+  					"path": "packs/jd-horror-bestiary.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				}, 
+				{
+  					"name": "jd-horror-edges",
+  					"label": "JD Horror Edges",
+  					"path": "packs/jd-horror-edges.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				}, 
+				{
+  					"name": "jd-horror-hindrances",
+  					"label": "JD Horror Hindrances",
+  					"path": "packs/jd-horror-hindrances.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				},
+				{
+  					"name": "jd-scifi-bestiary",
+  					"label": "JD Science Fiction Bestiary",
+  					"path": "packs/jd-scifi-bestiary.db",
   					"entity": "Item",
   					"system": "swade",
   					"module": "jd-weird-world"
