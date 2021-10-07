@@ -3,8 +3,8 @@
 	"title": "JD Weird World Imported Data",
 	"description": "A module of imported book data: Edges, Hindrances, Gear, etc.",
 	"manifest": "https://raw.githubusercontent.com/jondoud/jd-weird-world/master/module.json",
-  	"download": "https://github.com/jondoud/jd-weird-world/releases/download/v1.1.0/module.zip",
-  	"version": "1.1.0",
+  	"download": "https://github.com/jondoud/jd-weird-world/releases/download/v1.1.1/module.zip",
+  	"version": "1.1.1",
   	"url": "https://github.com/jondoud/jd-weird-world",
 	"author": "Jon Doud",
 	"minimumCoreVersion": "0.7.0",
@@ -101,6 +101,14 @@
   					"name": "jd-scifi-hindrances",
   					"label": "JD Science Fiction Hindrances",
   					"path": "packs/jd-scifi-hindrances.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				},
+				{
+  					"name": "jd-sklls",
+  					"label": "JD Skills",
+  					"path": "packs/jd-skills.db",
   					"entity": "Item",
   					"system": "swade",
   					"module": "jd-weird-world"
