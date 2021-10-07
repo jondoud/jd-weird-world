@@ -106,9 +106,17 @@
   					"module": "jd-weird-world"
 				},
 				{
-  					"name": "jd-sklls",
+  					"name": "jd-skills",
   					"label": "JD Skills",
   					"path": "packs/jd-skills.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				},
+				{
+  					"name": "jd-powers",
+  					"label": "JD Powers",
+  					"path": "packs/jd-powers.db",
   					"entity": "Item",
   					"system": "swade",
   					"module": "jd-weird-world"

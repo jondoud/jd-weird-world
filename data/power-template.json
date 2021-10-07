@@ -1,0 +1,22 @@
+{
+  "name": "{{Name}}",
+  "type": "power",
+  "img": "systems/swade/assets/icons/power.svg",
+  "data": {
+    "description": "{{Rule}}",
+    "notes": "{{Source}}",
+    "additionalStats": {},
+    "equippable": false,
+    "equipped": false,
+    "actions": {
+      "skill": "",
+      "skillMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "rank": "{{Rank}}",
+    "pp": "{{Power_Points}}",
+    "range": "{{Distance}}",
+    "duration": "{{Duration}}"
+  }
+}
