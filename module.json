@@ -41,7 +41,7 @@
   					"entity": "Actor",
   					"system": "swade",
   					"module": "jd-weird-world"
-				}
+				},
 				{
   					"name": "jd-skills",
   					"label": "JD Skills",
