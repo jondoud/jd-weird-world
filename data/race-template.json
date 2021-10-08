@@ -1,0 +1,14 @@
+{
+  "name": "{{Name}}",
+  "type": "ability",
+  "img": "{{Image}}",
+  "data": {
+    "description": "{{Description}}",
+    "notes": "{{Source}}",
+    "additionalStats": {},
+    "subtype": "race",
+    "grantsPowers": false
+  },
+  "effects": [
+  ]
+}
