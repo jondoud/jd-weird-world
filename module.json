@@ -91,7 +91,7 @@
   					"module": "jd-weird-world"
 				}
 	], 
-	"systems": [
+	"system": [
         "swade"
     ],
     "dependencies": [
