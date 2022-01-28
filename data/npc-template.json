@@ -1,0 +1,130 @@
+{
+  "name": "{{Name}}",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "data": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": {{Agility}},
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": {{Smarts}},
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": {{Animal}}
+      },
+      "spirit": {
+        "die": {
+          "sides": {{Spirit}},
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": {{Strength}},
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": {{Vigor}},
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": {{Pace}}
+      },
+      "toughness": {
+        "value": {{Toughness}},
+        "armor": {{Armor}},
+        "modifier": {{Toughness_Modifier}}
+      },
+      "parry": {
+        "value": {{Parry}},
+        "modifier": {{Parry_Modifier}}
+      },
+      "size": 0
+    },
+    "details": {
+      "biography": {
+        "value": "{{Description}}"
+      },
+      "species": {
+        "name": ""
+      },
+      "currency": 500,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "min": 0,
+      "max": 2
+    },
+    "advances": {
+      "value": 0,
+      "rank": "Novice",
+      "details": ""
+    },
+    "bennies": {
+      "value": 2,
+      "max": 2
+    }
+  },
+  "token": {
+    "name": "Test",
+    "img": "icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 0
+  }
+}

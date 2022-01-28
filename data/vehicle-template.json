@@ -1,0 +1,94 @@
+
+{
+  "name": "Carriage",
+  "type": "vehicle",
+  "img": "modules/swpf-core-rules/assets/art/tokens/SWPF-C.webp",
+  "data": {
+    "size": 3,
+    "scale": null,
+    "classification": "Ground",
+    "handling": -2,
+    "cost": 0,
+    "topspeed": "8",
+    "description": "<div class=\"swpf-core\">\n<p>Pulled by one Horse. @Compendium[swpf-core-rules.swpf-rules.Movement]{Pace} on the tabletop is 12 and it may run.</p>\n</div>",
+    "toughness": {
+      "total": "6",
+      "armor": "0"
+    },
+    "wounds": {
+      "value": 0,
+      "max": 3,
+      "ignored": 0
+    },
+    "crew": {
+      "required": {
+        "value": "1",
+        "max": "1"
+      },
+      "optional": {
+        "value": "0",
+        "max": "3"
+      }
+    },
+    "driver": {
+      "id": null,
+      "skill": "",
+      "skillAlternative": ""
+    },
+    "status": {
+      "isOutOfControl": false,
+      "isWrecked": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "maxCargo": 0,
+    "maxMods": 0
+  },
+  "token": {
+    "name": "Carriage",
+    "img": "modules/swpf-core-rules/assets/art/tokens/SWPF-C.webp",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "actorId": null
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0
+}
+ 

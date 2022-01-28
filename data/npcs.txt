@@ -1,0 +1,48 @@
+ALLIGATOR/CROCODILE
+Alligators and crocodiles lurk in the wetlands of Golarion, usually freshwater but sometimes in brackish or saltwater. The statistics here represent an average specimen of either species. Much larger versions are often found in more remote areas.
+Type: Neutral Animal (Alligator/Crocodile)
+Attributes: Agility d6, Smarts d4 (A), Spirit d6, Strength d10, Vigor d8
+Skills: Athletics d6, Fighting d6, Intimidate d6, Notice d8, Stealth d8
+Pace: 5; Parry: 5; Toughness: 10 (2)
+Edges: —
+Special Abilities:</p><p>• Armor +2: Thick skin.</p><p>• Aquatic: Pace 6 .</p><p>• Bite: Str+d6.</p><p>• Low Light Vision: Gators and crocs ignore penalties for Dim and Dark Illumination. </p><p>• Rollover: Gators and crocs grasp prey in their vice-like jaws and roll with them. If one of these large reptiles hits with a raise, its bonus damage is a d10 instead of a d6. </p><p>• Size 2: Common gators are about 6 to 7′ long, thick, heavy, and weigh just under 500 lbs.
+
+SHARK
+Dangerous predators such as bull sharks and similar fish swim the seas of Golarion.
+Type: Neutral Animal (Shark)
+Attributes: Agility d8, Smarts d4 (A), Spirit d6, Strength d8, Vigor d8 
+Skills: Athletics d8, Fighting d8, Notice d12, Stealth d8
+Pace: —; Parry: 6; Toughness: 8 (1)
+Edges: —
+Special Abilities:</p><p>• Armor +1: Rubbery hide.</p><p>• Aquatic: Pace 10 .</p><p>• Bite: Str+d6, AP 2.</p><p>• Size 1: Sharks weigh up to 500 pounds.
+
+LEMURE
+The least of devilkind, lemures are shapeless masses of quivering flesh. These tortured souls bear little resemblance to whatever they once were. A malformed face and knobby limbs provide the only hint of their existence before being damned to Hell.</p><p>After suffering for ages, some souls are transformed into lemures. Greater devils can spot the most corrupt lemures, reshaping them into true devils to serve obediently in the legions of the damned.
+Type: Evil Outsider (Lemure)
+Attributes: Agility d6, Smarts d4 (A), Spirit d6, Strength d6, Vigor d6
+Skills: Fighting d4, Notice d4
+Pace: 5; Parry: 4; Toughness: 7 (2)
+Edges: —
+Special Abilities:</p><p>• Armor +2: Goopy skin.</p><p>• Claws: Str.</p><p>• Devil: Ignore penalties for Illumination up to 10”; +4 damage from silvered weapons; –4 damage from acid, cold; immune to fire, poison.</p><p>• Mindless: Immune to puppet, Intimidation, and Taunt.
+
+XILL
+Evil and alien, these flame-red humanoids are a strange mix of insect and reptile, with four arms and fanged mandibles.</p><p>Xills have only one purpose: to perpetuate themselves at the expense of others. All xills are female and capable of fertilizing their own eggs, but they require living hosts as incubators. A xill injects eggs into paralyzed victims via a grotesque ovipositor behind their mandibles. They prefer phase spiders as hosts.</p>,<p>Xills are the scourge of the Ethereal Plane. These plane-shifters possess impressive intelligence and a totalitarian, militaristic culture all their own. They sometimes come to the Material Plane to find hosts.
+Type: Evil Outsider (Xill)
+Attributes: Agility d10, Smarts d6, Spirit d6, Strength d10, Vigor d6
+Skills: Athletics d10, Common Knowledge d6, Fighting d8, Intimi- date d8, Notice d8, Occult d8, Shooting d8, Stealth d10, Survival d6
+Pace: 7; Parry: 6 or 8 (shield); Toughness: 7 (2)
+Edges: Ambidextrous, Quick, Two-Weapon Fighting
+Gear: 2x short sword (Str+d6), longbow (Range 15/30/60, Damage 2d6, AP 1), medium shield.
+Special Abilities:</p><p>• Armor +2: Chitinous hide.</p><p>• Bite: Str+d4.</p><p>• Darkvision: Xills ignore penalties for Illumination up to 10”.</p><p>• Extra Arms: Xills may ignore 2 points of Multi-Action penalties each turn.</p><p>• Implant:Asalimitedaction,axillcanlaya clutch of eggs in a helpless living creature. The eggs hatch in 24 hours, at which point they begin to consume the host, causing Energy Drain (Vigor) once per hour. A successful healing with Remove Disease kills all of the eggs. A Healing roll at –2 removes the eggs. Failure causes Fatigue. A critical failure causes a Wound.</p><p>• Innate Powers: Major plane shift (self, Ethereal plane only).</p><p>• Paralysis: Anyone Shaken or Wounded by a xill's bite must succeed at a Vigor roll or be paralyzed.
+Languages: Common, Infernal.
+
+BARGHEST
+The four-legged barghest is likely related to the goblinoids of Golarion. In its natural state this evil hybrid resembles a cross between a wolf and a goblin—and it can assume the form of either.</p><p>Barghests come to the material plane to feed on the flesh and souls of mortals, especially humanoids. They have a connection with Lamashtu and often ally themselves with other followers of the goddess.
+Type: Evil Outsider (Barghest)
+Attributes: Agility d8, Smarts d6, Spirit d8, Strength d10, Vigor d8
+Skills: Athletics d8, Common Knowledge d6, Fighting d8, Intimidation d8, Notice d8, Spellcasting d6, Stealth d8, Survival d6 
+Pace: 6; Parry: 6; Toughness: 9 (3)
+Edges: Arcane Background (Magic), First Strike
+Powers: Deflection, puppet, teleport. Power Points: 10.
+Special Abilities:</p><p>• Armor +3: Fiendish hide.</p><p>• Bite/Claws: Str+d6.</p><p>• Darkvision: Barghests ignore penalties for Illumination up to 10”.</p><p>• Hardy: A second Shaken result doesn't cause a Wound.</p><p>• Innate Powers: Minor fly (levitate up or down only), minor shape change (goblin or wolf).
+Languages: Common, Goblin, Infernal

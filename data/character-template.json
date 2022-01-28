@@ -1,0 +1,474 @@
+
+{
+  "name": "Lini",
+  "type": "character",
+  "img": "modules/swpf-core-rules/assets/art/tokens/druid.webp",
+  "data": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": "Gnome"
+      },
+      "currency": "39",
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      },
+      "autoCalcToughness": true,
+      "autoCalcParry": true
+    },
+    "powerPoints": {
+      "value": 10,
+      "max": 10
+    },
+    "advances": {
+      "value": 0,
+      "rank": "Novice",
+      "details": ""
+    },
+    "bennies": {
+      "value": 3,
+      "max": 3
+    },
+    "additionalStats": {},
+    "wildcard": true
+  },
+  "token": {
+    "name": "Lini",
+    "img": "modules/swpf-core-rules/assets/art/tokens/druid.webp",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "actorId": null
+  },
+  "items": [
+    {
+      "_id": "T6rr0LHgpBl1nfTa",
+      "name": "Common Knowledge",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Characters roll Common Knowledge to know people, places, and things of their locale, including etiquette, geography, culture, current events, contacts, and customs.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 6,
+          "modifier": null
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "X2suckqDBvRuQE5F",
+      "name": "All Thumbs",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Due to upbringing, lack of exposure, or pure bad luck, some individuals are \"all thumbs\" when it comes to mechanical or technological devices.</p>\n<p>All Thumbs inflicts a &minus;2 penalty when using mechanical or electrical devices. If the hero rolls a @Compendium[swpf-core-rules.swpf-rules.Critical Failures]{Critical Failure} while using such a device (and it doesn&rsquo;t already have a built-in effect), it&rsquo;s broken. If the GM feels it&rsquo;s appropriate, it can be fixed with a @Compendium[swpf-core-rules.swpf-skills.Repair]{Repair} roll and 1d6 hours of work.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false
+      },
+      "effects": [],
+      "folder": "aUoOdDiYeU7DnloR",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-hindrances.2KpWAGSkB2MotLsz"
+        }
+      }
+    },
+    {
+      "_id": "tiYOgTnN26mFemG6",
+      "name": "Druid",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>In the purity and beauty of nature lingers a power beyond the marvels of civilization. These primal magics are guarded by servants of balance known as druids. Allies to beasts and manipulators of nature, these protectors shield their lands from all who threaten them.</p>\n<p>Rewarded for their devotion with incredible powers, druids gain unparalleled shape-shifting abilities, the companionship of mighty beasts, and the power to call upon nature&rsquo;s wrath. The mightiest temper powers akin to storms, earthquakes, and volcanoes with wisdom long forgotten by civilization.</p>\n<ul>\n<li><span class=\"list-heading\">Arcane Background</span> <strong>(Druid):</strong> Druids use @Compendium[swpf-core-rules.swpf-skills.Faith]{Faith} as their arcane skill. On taking this Edge, the hero gains 3 starting powers and 10 Power Points.<br /><strong>Available Powers:</strong> Druids choose spells from the cleric's available powers and under the Nature Domain.</li>\n<li><span class=\"list-heading\">Armor Interference</span> <strong>(Light):</strong> Bulky armor interferes with a druid&rsquo;s ability to sense and commune with nature. They subtract 4 from their Faith rolls and from their Agility and Agility-based skill rolls if using medium or heavy armor or shields. Druids cannot use metal armor at all.</li>\n<li><span class=\"list-heading\">Nature Bond:</span> A druid may attune herself to nature or a special animal companion. See <strong>Nature Bond,</strong> below.</li>\n<li><span class=\"list-heading\">Nature Sense:</span> Druids commune with nature and its spirits. Survival is linked to Spirit rather than Smarts.</li>\n<li><span class=\"list-heading\">Secret Language:</span> All druids know the secret language known as druidic.</li>\n<li><span class=\"list-heading\">Vow</span> <strong>(Major):</strong> Druids have a major vow to protect nature. Those drawing energy from divine sources must uphold the principles of the Nature Domain. <br />If the druid violates her deity's trust (GM's call) the druid subtracts 2 from Faith rolls for a week. Truly sacrilegious acts might rob her of her powers entirely until she atones in some way.</li>\n<li><span class=\"list-heading\">Wilderness Stride:</span> Druids pass through terrain such as dense forest, rocky hills, or desert sands with ease. They ignore penalties for Difficult Ground (see @Compendium[swpf-core-rules.swpf-rules.Movement]{Movement}).</li>\n</ul>\n<h3 class=\"item\">Nature Bond</h3>\n<p>The bonds druids form with nature are deep and powerful. Choose one of these abilities:</p>\n<p><strong>Attuned:</strong> The druid gets one free reroll anytime she fails a Faith roll to activate a spell.</p>\n<p><strong>Beast Master:</strong> The druid gains the @Compendium[swpf-core-rules.swpf-edges.Beast Master]{Beast Master} Edge, gaining an animal companion. This companion is a Wild Card.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": true,
+        "requirements": {
+          "value": "Novice, Spirit d6+, Survival d6+"
+        }
+      },
+      "effects": [],
+      "folder": "5PUeabuyj5PHB8mU",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.jnrXPgA7BAdOiWoy"
+        }
+      }
+    },
+    {
+      "_id": "q2i0CRZYXNHXHNTD",
+      "name": "New Powers",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>An arcane character may learn two new powers by choosing this Edge (which may be taken multiple times). He may choose from any powers of his Rank or lower normally available to his particular Arcane Background (see differences in @Compendium[swpf-core-rules.swpf-rules.5 Edges]{Edges}). A character can add a new @Compendium[swpf-core-rules.swpf-rules.2 Trappings]{Trapping} on a power she already has instead of gaining a new one. She might add an ice Trapping to her existing fire bolt, for example, so she could switch between ice and fire Trappings freely. If a wizard takes this Edge, he may choose to learn two powers, as usual, plus a bonus third power, if he has discovered one contained in spellbooks or scrolls he has acquired. The wizard transcribes all three new powers into his spellbook and the original scrolls or spellbooks from which he gleaned his knowledge are added to his repository of notes and research in case he has to make a replacement spellbook in the future.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": {
+          "value": "Novice, Arcane Background (Any)"
+        }
+      },
+      "effects": [],
+      "folder": "HS3IhCPQfXPnRAAM",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-edges.Qt3tD20Pgq0u9P9k"
+        }
+      }
+    },
+    {
+      "_id": "GpBN8AtnpOpnjMuJ",
+      "name": "Beast Friend",
+      "type": "power",
+      "img": "systems/swade/assets/icons/power.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>This spell allows an individual to speak with and guide the actions of nature&rsquo;s beasts. The cost to cast is equal to the sum of their Size (minimum 1 per creature; see the creatures in Chapter Six for examples). Controlling five wolves (Size &minus;1) costs 5 points, for example. Controlling a rhino (Size 5) also costs 5 points.</p>\n<p>Success means the creatures obey simple commands, like a well-trained dog. They attack foes and endanger their lives for their master. A @Compendium[swpf-core-rules.swpf-rules.Raises]{raise} on the arcane skill roll means the beasts are more obedient. They won&rsquo;t kill themselves but overcome their natural fears (fire, fearful creatures, et.) to follow their orders.</p>\n<p>Swarms can also be con&shy;trolled. Small Swarms cost 1 point, Medium Swarms cost 2, and Large Swarms cost 3.</p>\n<p><em>Beast</em> <em>friend</em> works only on natural creatures with animal intelligence, not humanoids, and has no effect on conjured, magical, or otherwise &ldquo;unnatural&rdquo; animals.</p>\n<h3 class=\"red-label\">Modifiers</h3>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">BESTIARIUM (+2):</span> The caster may affect magical beasts with animal intelligence.</li>\n</ul>\n<ul>\n<li><span class=\"list-heading\">Duration (+1):</span> The base Duration increases to 30 minutes.</li>\n<li><span class=\"list-heading\">Mind Rider&nbsp;(+1):</span> The caster can communicate and sense through any of the beasts he currently has befriended.</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": true,
+        "actions": {
+          "skill": "faith",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "Special",
+        "damage": "",
+        "range": "Sm",
+        "duration": "10 minutes",
+        "trapping": "The caster concentrates and gestures with his hands.",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "effects": [],
+      "folder": "ytpBvGFSySGJiTqP",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-powers.KwFsb4eDHBR7gpWG"
+        }
+      }
+    },
+    {
+      "_id": "9w8BvwL4HhNCAYet",
+      "name": "Sickle",
+      "type": "weapon",
+      "img": "icons/weapons/sickles/sickle-hooked-purple.webp",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2,
+        "price": 3,
+        "equippable": false,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "Fighting",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "@str+d4",
+        "range": "",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "d4",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_ufebfq0tjxb",
+          "path": "Gear#/CF_SEP/Personal Weapons#/CF_SEP/Melee Weapons",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swpf-core-rules.swpf-gear.y1cX0PXy8NEiJS5G"
+        }
+      }
+    },
+    {
+      "_id": "XiQGFF1166VWodru",
+      "name": "Light Tunic or Jacket (torso, arms)",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-leather-brown.webp",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 11,
+        "price": 20,
+        "equippable": false,
+        "equipped": true,
+        "minStr": "d6",
+        "armor": 2,
+        "isNaturalArmor": false,
+        "locations": {
+          "head": false,
+          "torso": true,
+          "arms": true,
+          "legs": false
+        }
+      },
+      "effects": [],
+      "folder": "TFJjebD4dKeePGjM",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "n1UlSAlVrxvHczs2": 3,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.Jz4MFxFHbnrAJ1Kc"
+        }
+      }
+    },
+    {
+      "_id": "4JIcUpiFHWBaKbz4",
+      "name": "Sling Stones",
+      "type": "gear",
+      "img": "icons/commodities/stone/paver-cobbles-blue.webp",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Polished stones. 20 per lb.</p>\n</div>",
+        "notes": "10 stones",
+        "additionalStats": {},
+        "quantity": 20,
+        "weight": 0.05,
+        "price": 0.1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "effects": [],
+      "folder": "nWZ9MgJssgewPSQ6",
+      "sort": 400000,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.rbgKhItFHqLeX0Sj"
+        }
+      }
+    },
+    {
+      "_id": "DuB5yHM0t2j99czn",
+      "name": "Thunderstone",
+      "type": "weapon",
+      "img": "icons/commodities/stone/stone-nugget-gold.webp",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> An enchanted rock that explodes with a deafening boom when struck against a hard surface. Anyone in the template must make a @Compendium[swpf-core-rules.swpf-rules.7 Trait Summaries]{Vigor} roll or be @Compendium[swpf-core-rules.swpf-rules.Shaken]{Shaken} as well as deafened for one hour.</p>\n</div>",
+        "notes": "An enchanted rock that explodes with a deafening boom when struck against a hard surface. Anyone in the template must make a Vigor roll or be Shaken as well as deafened for one hour.",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 30,
+        "equippable": false,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "",
+        "range": "3/6/12",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_wpqwclu8jfn",
+          "path": "Gear#/CF_SEP/Common Gear#/CF_SEP/Alchemical Items",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swpf-core-rules.swpf-gear.EoUVuCk4P4XkeBBf"
+        }
+      }
+    }
+  ]
+}
+ 

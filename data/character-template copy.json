@@ -1,0 +1,1377 @@
+
+{
+  "name": "Lini",
+  "type": "character",
+  "img": "modules/swpf-core-rules/assets/art/tokens/druid.webp",
+  "data": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": "Gnome"
+      },
+      "currency": "39",
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      },
+      "autoCalcToughness": true,
+      "autoCalcParry": true
+    },
+    "powerPoints": {
+      "value": 10,
+      "max": 10
+    },
+    "fatigue": {
+      "value": 0,
+      "min": 0,
+      "max": 2
+    },
+    "wounds": {
+      "value": 0,
+      "min": 0,
+      "max": 3,
+      "ignored": 0
+    },
+    "advances": {
+      "value": 0,
+      "rank": "Novice",
+      "details": ""
+    },
+    "bennies": {
+      "value": 3,
+      "max": 3
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "wildcard": true
+  },
+  "token": {
+    "name": "Lini",
+    "img": "modules/swpf-core-rules/assets/art/tokens/druid.webp",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "actorId": null
+  },
+  "items": [
+    {
+      "_id": "6nZk5RtWVTtyotyQ",
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/convince.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Persuasion is the ability to convince others to do what you want through reason, cajoling, deception, rewards, or other friendly means. Persuasion isn&rsquo;t</p>\n<p>Persuasion is the ability to convince others to do what you want through reason, cajoling, deception, rewards, or other friendly means. Persuasion isn&rsquo;t mind control. It can change someone&rsquo;s attitude but not their goals. A bandit may let you keep a sentimental piece of jewelry with a good Persuasion roll but still takes all your other goods.</p>\n<p>When used to <strong>@Compendium[swpf-core-rules.swpf-rules.Support]{Support}</strong> allies it&rsquo;s an unopposed roll. If the target is resistant, it&rsquo;s an @Compendium[swpf-core-rules.swpf-rules.Opposed Rolls]{opposed roll} vs. the target&rsquo;s @Compendium[swpf-core-rules.swpf-rules.7 Trait Summaries]{Spirit}. The GM should modify the roll as appropriate based on roleplaying, any pertinent @Compendium[swpf-core-rules.swpf-rules.9 Edge Summaries]{Edges} or @Compendium[swpf-core-rules.swpf-rules.8 Hindrance Summaries]{Hindrances} that affect the conversation, and the circumstances.</p>\n<p><strong>Reaction Level:</strong> How much a person is willing to cooperate depends largely on their attitude toward whoever&rsquo;s talking to them. The Game Master can decide how nonplayer characters feel based on the setting, or roll on the <strong>@Compendium[swpf-core-rules.swpf-tables.Reaction]{Reaction Table}</strong> (see sidebar) when having no preconceived notions.</p>\n<p>@Compendium[swpf-core-rules.swpf-rules.Trait Rolls]{Success} improves the target&rsquo;s attitude one level and a @Compendium[swpf-core-rules.swpf-rules.Raises]{raise} improves it two. Further increases aren&rsquo;t generally possible in the same encounter&mdash; it takes individuals a little time to adjust their biases.</p>\n<p>Failure means the target won&rsquo;t change his mind this encounter or until the situation changes in some important way. A @Compendium[swpf-core-rules.swpf-rules.Critical Failures]{Critical Failure} also <em>reduces</em> the target&rsquo;s attitude two levels.</p>\n<p>Only one roll should generally be allowed per interaction unless new information is revealed, a substantial reward is offered, etc.</p>\n<p><strong>Networking:</strong> Characters can also use Persuasion as a \"macro skill,\" simulating a few hours or an evening&rsquo;s time hobnobbing and socializing to gain favors or information. See <strong>@Compendium[swpf-core-rules.swpf-rules.Networking]{Networking}</strong>.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 4,
+          "modifier": null
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J4EFfhcWWdfEyvNr",
+      "name": "Athletics",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Athletics combines an individual&rsquo;s coordination with learned skills such as climbing, jumping, balancing, wrestling, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the <strong>@Compendium[swpf-core-rules.swpf-edges.Brute]{Brute}</strong> Edge to link this skill to @Compendium[swpf-core-rules.swpf-rules.7 Trait Summaries]{Strength} instead of @Compendium[swpf-core-rules.swpf-rules.7 Trait Summaries]{Agility}.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 6,
+          "modifier": null
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "K9DGGRz3slZrfuaM",
+      "name": "Notice",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/awareness.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Notice is a hero&rsquo;s general awareness and alertness. It&rsquo;s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@Compendium[swpf-core-rules.swpf-rules.Trait Rolls]{Success} conveys basic information&mdash; the character hears movement in the forest, smells distant smoke, or senses someone isn&rsquo;t being completely truthful.</p>\n<p>A @Compendium[swpf-core-rules.swpf-rules.Raises]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 6,
+          "modifier": null
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SX7GnSciG0pvzcRu",
+      "name": "Stealth",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swpf-core-rules.swpf-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren&rsquo;t particularly alert. If the character fails the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} (a @Compendium[swpf-core-rules.swpf-rules.Group Rolls]{group roll} if there are many foes).</p>\n<p>The GM should apply any circumstantial penalties to Notice rolls for darkness, cover, noise, distractions, and any difference in the target&rsquo;s Scale (just like when attacking, see <strong>@Compendium[swpf-core-rules.swpf-rules.Size and Scale]{Scale}</strong>). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @Compendium[swpf-core-rules.swpf-rules.Illumination]{Illumination} penalty. Don&rsquo;t apply the same modifier to both rolls, however. If Stealth is at &minus;2 for the leaves, don&rsquo;t give Notice a +2 for them as well.</p>\n<p><strong>Attacking from Stealth:</strong> Sneaking up close enough to make a @Compendium[swpf-core-rules.swpf-rules.Melee Attacks]{melee} attack <em>always</em> requires an opposed Stealth roll versus the target&rsquo;s Notice, whether the guard is actively looking for trouble or not.</p>\n<p>If @Compendium[swade-core-rules.swade-rules.Trait Rolls]{successful}, the attacker is considered on @Compendium[swpf-core-rules.swpf-rules.Hold]{Hold} and the victim is <strong>@Compendium[swpf-core-rules.swpf-rules.Distracted and Vulnerable]{Vulnerable}</strong> to him (but not others) until the attacker&rsquo;s turn ends (not the defender&rsquo;s in this case). With a @Compendium[swpf-core-rules.swpf-rules.Raises]{raise}, the attacker has <strong>@Compendium[swpf-core-rules.swpf-rules.The Drop]{The Drop}</strong> instead.</p>\n<p>Before the attacker strikes, the defender and any other beings on his side must check for @Compendium[swpf-core-rules.swpf-rules.Surprise]{Surprise}. The attacker may come off Hold and resolve his strike; then the rest of the round progresses normally.</p>\n<p><strong>@Compendium[swpf-core-rules.swpf-rules.Movement]{Movement}:</strong> In combat, characters roll Stealth each turn as a @Compendium[swpf-core-rules.swpf-rules.Free Actions]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they&rsquo;re trying to quietly walk through a dark forest without alerting the creatures that live there.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 4,
+          "modifier": null
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "T6rr0LHgpBl1nfTa",
+      "name": "Common Knowledge",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Characters roll Common Knowledge to know people, places, and things of their locale, including etiquette, geography, culture, current events, contacts, and customs.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 6,
+          "modifier": null
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "flags": {}
+    },
+    {
+      "name": "Untrained",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": -2
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "_id": "2emuzx6zenoxhqil",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wKCorQDHTncxgqJZ",
+      "name": "Faith",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/prayer.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>@Compendium[swpf-core-rules.swpf-edges.Cleric]{Clerics} and @Compendium[swpf-core-rules.swpf-edges.Druid]{druids} use Faith as the arcane skill required for their <strong>@Compendium[swpf-core-rules.swpf-edges.Arcane Background (Miracles)]{Arcane Backgrounds}</strong>.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": "MC0CAy5qn70PUak2",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "swade-core-rules",
+          "system": "swade",
+          "coreVersion": "0.8.8",
+          "systemVersion": "0.19.5"
+        },
+        "core": {
+          "sourceId": "Item.cPeoX2Sgxwiuqaxx"
+        }
+      }
+    },
+    {
+      "_id": "h8ArTBy6GbBcuXo7",
+      "name": "Fighting",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Fighting covers all hand-to-hand (@Compendium[swpf-core-rules.swpf-rules.Melee Attacks]{melee}) attacks, whether it&rsquo;s with fists, axes, swords, or martial arts. It reflects skill as well as raw power, savagery, and fearlessness.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": "MC0CAy5qn70PUak2",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "swade-core-rules",
+          "system": "swade",
+          "coreVersion": "0.8.8",
+          "systemVersion": "0.19.5"
+        },
+        "core": {
+          "sourceId": "Item.K9Pcsg80bjkR9Skx"
+        }
+      }
+    },
+    {
+      "_id": "DgrcGpmnzdugeQvc",
+      "name": "Healing",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/medical-pack.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Healing has multiple uses, from treating Wounds to diagnosing diseases and analyzing certain kinds of forensic evidence.</p>\n<p>See the rules on mending and treating @Compendium[swpf-core-rules.swpf-rules.Wounds]{Wounds}, and treatment of @Compendium[swpf-core-rules.swpf-rules.Disease]{disease} or @Compendium[swpf-core-rules.swpf-rules.Poison]{poison}.</p>\n<p>Healing can also be used to analyze evidence that relates to anatomical trauma, including cause of death and approximate time, a general angle of attack, and similar matters. @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Success} provides basic information and a @Compendium[swpf-core-rules.swpf-rules.Raises]{raise} increases the details uncovered.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": "MC0CAy5qn70PUak2",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "swade-core-rules",
+          "system": "swade",
+          "coreVersion": "0.8.8",
+          "systemVersion": "0.19.5"
+        },
+        "core": {
+          "sourceId": "Item.UPgVK4CGBPDHud5D"
+        }
+      }
+    },
+    {
+      "_id": "imqCKcajX1MFMFmN",
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/arrest.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Intimidation is the art of frightening an opponent so that he backs down, reveals information, or flees.</p>\n<p>Intimidation is an @Compendium[swpf-core-rules.swpf-rules.Opposed Rolls]{opposed roll} resisted by the opponent&rsquo;s @Compendium[swpf-core-rules.swpf-rules.7 Trait Summaries]{Spirit}. In combat, this is a <strong>@Compendium[swpf-core-rules.swpf-rules.Test]{Test}</strong>. Out of combat, a @Compendium[swpf-core-rules.swpf-rules.Trait Rolls]{successful} roll means the foe backs down for the most part, reveals some information, or slinks away when the opportunity presents itself. A @Compendium[swpf-core-rules.swpf-rules.Raises]{raise} might mean the target backs down for the remainder of the scene, spills all the beans, or runs away as fast as possible.</p>\n<p>In or out of combat, a @Compendium[swpf-core-rules.swpf-rules.Critical Failures]{Critical Failure} on the roll means the target is immune to this character&rsquo;s Intimidation attempts for the remainder of this encounter!</p>\n<p><strong>Networking:</strong> Intimidation can also be used as a \"macro\" skill to simulate several hours of working the streets. See <strong>@Compendium[swpf-core-rules.swpf-rules.Networking]{Networking}</strong> to see how to crack some heads for favors or information.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": "MC0CAy5qn70PUak2",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "swade-core-rules",
+          "system": "swade",
+          "coreVersion": "0.8.8",
+          "systemVersion": "0.19.5"
+        },
+        "core": {
+          "sourceId": "Item.yaHGenVbVwOjK5Yv"
+        }
+      }
+    },
+    {
+      "_id": "RxuNs6mXPOA0vOUY",
+      "name": "Riding",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/saddle.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Riding allows a hero to mount, control, and ride any beast or beast-drawn vehicle. This includes horses, camels, dragons, wagons, chariots, and the like. See the rules for <strong>@Compendium[swpf-core-rules.swpf-rules.Mounted Combat]{Mounted Combat}</strong>.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": "MC0CAy5qn70PUak2",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "swade-core-rules",
+          "system": "swade",
+          "coreVersion": "0.8.8",
+          "systemVersion": "0.19.5"
+        },
+        "core": {
+          "sourceId": "Item.7EUhLHBLHQHfWrOA"
+        }
+      }
+    },
+    {
+      "_id": "N4Kd3de27PcWxAbr",
+      "name": "Survival",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/camping-tent.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Survival allows a character to find food, water, or shelter in hostile environments. It can also be used to navigate wilderness environments, figure out which plants are good to eat and which aren&rsquo;t, and so on.</p>\n<p>A @Compendium[swpf-core-rules.swpf-rules.Trait Rolls]{successful} Survival roll provides enough food and water for one person for one day; or five people with a @Compendium[swpf-core-rules.swpf-rules.Raises]{raise}.</p>\n<p>More detailed information on <strong>@Compendium[swpf-core-rules.swpf-rules.Hunger]{Hunger}</strong> and <strong>@Compendium[swpf-core-rules.swpf-rules.Thirst]{Thirst}</strong> can be found under <strong>@Compendium[swpf-core-rules.swpf-rules.Hazards]{Hazards}</strong>.</p>\n<p><strong>Tracking:</strong> Survival can also be used to detect and follow tracks. Each roll generally covers following the tracks for one mile, but the GM should adjust this as needed for specific circumstances. A character moves at half@Compendium[swpf-core-rules.swpf-rules.Movement]{Pace} and cannot run while tracking a foe.</p>\n<p>The Game Master should assign a bonus or penalty based on the target, environment, and time. Tracking a large group that recently passed through a snow-covered area might grant a bonus of +4, while following a single person over rocks and streams after more than a day incurs a &minus;4 penalty.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "effects": [],
+      "folder": "MC0CAy5qn70PUak2",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "swade-core-rules",
+          "system": "swade",
+          "coreVersion": "0.8.8",
+          "systemVersion": "0.19.5"
+        },
+        "core": {
+          "sourceId": "Item.TD9EaIGB2oVsoFEL"
+        }
+      }
+    },
+    {
+      "_id": "X2suckqDBvRuQE5F",
+      "name": "All Thumbs",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Due to upbringing, lack of exposure, or pure bad luck, some individuals are \"all thumbs\" when it comes to mechanical or technological devices.</p>\n<p>All Thumbs inflicts a &minus;2 penalty when using mechanical or electrical devices. If the hero rolls a @Compendium[swpf-core-rules.swpf-rules.Critical Failures]{Critical Failure} while using such a device (and it doesn&rsquo;t already have a built-in effect), it&rsquo;s broken. If the GM feels it&rsquo;s appropriate, it can be fixed with a @Compendium[swpf-core-rules.swpf-skills.Repair]{Repair} roll and 1d6 hours of work.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false
+      },
+      "effects": [],
+      "folder": "aUoOdDiYeU7DnloR",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-hindrances.2KpWAGSkB2MotLsz"
+        }
+      }
+    },
+    {
+      "_id": "mSprR5lDb1gCohiN",
+      "name": "Curious",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>It killed the cat, and it might kill your hero as well. Curious characters stick their nose in others' business and always want to know what&rsquo;s behind a potential mystery or secret.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": true
+      },
+      "effects": [],
+      "folder": "aUoOdDiYeU7DnloR",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-hindrances.GULnKHGQlhgqZ7Hn"
+        }
+      }
+    },
+    {
+      "_id": "90uI0jjiWGkW800R",
+      "name": "Vow",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>The character has sworn an oath to someone or something they believe in.</p>\n<p>The danger in fulfilling the Vow and how often it might occur determines the level of the Hindrance. A Minor Vow might be to serve an order with a broad mandate that rarely conflicts with the party&rsquo;s goals.</p>\n<p>A Major Vow makes long-term and frequent demands on the servant&rsquo;s time and results in great risks to his life.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false
+      },
+      "effects": [],
+      "folder": "aUoOdDiYeU7DnloR",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-hindrances.pdv7W2JX8IiVuqZT"
+        }
+      }
+    },
+    {
+      "_id": "tiYOgTnN26mFemG6",
+      "name": "Druid",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>In the purity and beauty of nature lingers a power beyond the marvels of civilization. These primal magics are guarded by servants of balance known as druids. Allies to beasts and manipulators of nature, these protectors shield their lands from all who threaten them.</p>\n<p>Rewarded for their devotion with incredible powers, druids gain unparalleled shape-shifting abilities, the companionship of mighty beasts, and the power to call upon nature&rsquo;s wrath. The mightiest temper powers akin to storms, earthquakes, and volcanoes with wisdom long forgotten by civilization.</p>\n<ul>\n<li><span class=\"list-heading\">Arcane Background</span> <strong>(Druid):</strong> Druids use @Compendium[swpf-core-rules.swpf-skills.Faith]{Faith} as their arcane skill. On taking this Edge, the hero gains 3 starting powers and 10 Power Points.<br /><strong>Available Powers:</strong> Druids choose spells from the cleric's available powers and under the Nature Domain.</li>\n<li><span class=\"list-heading\">Armor Interference</span> <strong>(Light):</strong> Bulky armor interferes with a druid&rsquo;s ability to sense and commune with nature. They subtract 4 from their Faith rolls and from their Agility and Agility-based skill rolls if using medium or heavy armor or shields. Druids cannot use metal armor at all.</li>\n<li><span class=\"list-heading\">Nature Bond:</span> A druid may attune herself to nature or a special animal companion. See <strong>Nature Bond,</strong> below.</li>\n<li><span class=\"list-heading\">Nature Sense:</span> Druids commune with nature and its spirits. Survival is linked to Spirit rather than Smarts.</li>\n<li><span class=\"list-heading\">Secret Language:</span> All druids know the secret language known as druidic.</li>\n<li><span class=\"list-heading\">Vow</span> <strong>(Major):</strong> Druids have a major vow to protect nature. Those drawing energy from divine sources must uphold the principles of the Nature Domain. <br />If the druid violates her deity's trust (GM's call) the druid subtracts 2 from Faith rolls for a week. Truly sacrilegious acts might rob her of her powers entirely until she atones in some way.</li>\n<li><span class=\"list-heading\">Wilderness Stride:</span> Druids pass through terrain such as dense forest, rocky hills, or desert sands with ease. They ignore penalties for Difficult Ground (see @Compendium[swpf-core-rules.swpf-rules.Movement]{Movement}).</li>\n</ul>\n<h3 class=\"item\">Nature Bond</h3>\n<p>The bonds druids form with nature are deep and powerful. Choose one of these abilities:</p>\n<p><strong>Attuned:</strong> The druid gets one free reroll anytime she fails a Faith roll to activate a spell.</p>\n<p><strong>Beast Master:</strong> The druid gains the @Compendium[swpf-core-rules.swpf-edges.Beast Master]{Beast Master} Edge, gaining an animal companion. This companion is a Wild Card.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": true,
+        "requirements": {
+          "value": "Novice, Spirit d6+, Survival d6+"
+        }
+      },
+      "effects": [],
+      "folder": "5PUeabuyj5PHB8mU",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.jnrXPgA7BAdOiWoy"
+        }
+      }
+    },
+    {
+      "_id": "gWXOAbeCJ51c0doW",
+      "name": "Beast Master",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Animals take to your hero quickly and easily. They won&rsquo;t attack him unless he attacks them first or they&rsquo;re enraged for some reason.</p>\n<p>The Beast Master&rsquo;s &ldquo;animal magnetism&rdquo; is so great he&rsquo;s attracted a loyal animal of some sort as well. This is typically an animal of Size 0 or smaller, subject to the GM&rsquo;s approval.</p>\n<p>The beast is an Extra and doesn&rsquo;t Advance in Rank or abilities. If a pet is dismissed or killed, the hero gains a replacement in 1d4 days.</p>\n<p><strong>More Powerful Companions:</strong> Beast Master may be taken more than once. Choose one of the effects below each time it&rsquo;s chosen:</p>\n<ul>\n<li>Gain an additional pet.</li>\n<li>Increase one of the pet&rsquo;s Traits one die type (only one Trait per pet).</li>\n<li>Increase the maximum Size pet you may have by +1, to a maximum of 3.</li>\n<li>Make one pet a Wild Card. (The hero must be of Heroic Rank).</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": {
+          "value": "Novice, Spirit d8+"
+        }
+      },
+      "effects": [],
+      "folder": "TFWG19AlYmWXxrjr",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-edges.KMuOdy1cMV3cHe0Z"
+        }
+      }
+    },
+    {
+      "_id": "q2i0CRZYXNHXHNTD",
+      "name": "New Powers",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>An arcane character may learn two new powers by choosing this Edge (which may be taken multiple times). He may choose from any powers of his Rank or lower normally available to his particular Arcane Background (see differences in @Compendium[swpf-core-rules.swpf-rules.5 Edges]{Edges}). A character can add a new @Compendium[swpf-core-rules.swpf-rules.2 Trappings]{Trapping} on a power she already has instead of gaining a new one. She might add an ice Trapping to her existing fire bolt, for example, so she could switch between ice and fire Trappings freely. If a wizard takes this Edge, he may choose to learn two powers, as usual, plus a bonus third power, if he has discovered one contained in spellbooks or scrolls he has acquired. The wizard transcribes all three new powers into his spellbook and the original scrolls or spellbooks from which he gleaned his knowledge are added to his repository of notes and research in case he has to make a replacement spellbook in the future.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": {
+          "value": "Novice, Arcane Background (Any)"
+        }
+      },
+      "effects": [],
+      "folder": "HS3IhCPQfXPnRAAM",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-edges.Qt3tD20Pgq0u9P9k"
+        }
+      }
+    },
+    {
+      "_id": "GpBN8AtnpOpnjMuJ",
+      "name": "Beast Friend",
+      "type": "power",
+      "img": "systems/swade/assets/icons/power.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>This spell allows an individual to speak with and guide the actions of nature&rsquo;s beasts. The cost to cast is equal to the sum of their Size (minimum 1 per creature; see the creatures in Chapter Six for examples). Controlling five wolves (Size &minus;1) costs 5 points, for example. Controlling a rhino (Size 5) also costs 5 points.</p>\n<p>Success means the creatures obey simple commands, like a well-trained dog. They attack foes and endanger their lives for their master. A @Compendium[swpf-core-rules.swpf-rules.Raises]{raise} on the arcane skill roll means the beasts are more obedient. They won&rsquo;t kill themselves but overcome their natural fears (fire, fearful creatures, et.) to follow their orders.</p>\n<p>Swarms can also be con&shy;trolled. Small Swarms cost 1 point, Medium Swarms cost 2, and Large Swarms cost 3.</p>\n<p><em>Beast</em> <em>friend</em> works only on natural creatures with animal intelligence, not humanoids, and has no effect on conjured, magical, or otherwise &ldquo;unnatural&rdquo; animals.</p>\n<h3 class=\"red-label\">Modifiers</h3>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">BESTIARIUM (+2):</span> The caster may affect magical beasts with animal intelligence.</li>\n</ul>\n<ul>\n<li><span class=\"list-heading\">Duration (+1):</span> The base Duration increases to 30 minutes.</li>\n<li><span class=\"list-heading\">Mind Rider&nbsp;(+1):</span> The caster can communicate and sense through any of the beasts he currently has befriended.</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": true,
+        "actions": {
+          "skill": "faith",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "Special",
+        "damage": "",
+        "range": "Sm",
+        "duration": "10 minutes",
+        "trapping": "The caster concentrates and gestures with his hands.",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "effects": [],
+      "folder": "ytpBvGFSySGJiTqP",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-powers.KwFsb4eDHBR7gpWG"
+        }
+      }
+    },
+    {
+      "_id": "b0sbcD0DLDG13XGp",
+      "name": "Elemental Manipulation",
+      "type": "power",
+      "img": "systems/swade/assets/icons/power.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>This power grants basic control over the four traditional elements: air, earth, fire, and water (the elements may vary for other cultures).</p>\n<p>Here are some ideas for what each element can do. Each use is an action.</p>\n<ul>\n<li><span class=\"list-heading\">Air:</span> Push someone (Str d6 or d8 with a @Compendium[swpf-core-rules.swpf-rules.Raises]{raise}), blow out a torch, fan a flame, cool someone down (reroll a @Compendium[swpf-core-rules.swpf-rules.Fatigue]{Fatigue} roll in oppressive heat).</li>\n<li><span class=\"list-heading\">Earth:</span> Move a square foot of earth (half that in stone) each round, cover tracks, hurl rocks at a target in Range for 2d4 damage.</li>\n<li><span class=\"list-heading\">Fire:</span> Conjure flame about the size of a torch, hurl a small blast of fire at someone (2d4 damage), spread existing flame (see <strong>@Compendium[swpf-core-rules.swpf-rules.Fire]{Fire}</strong>).</li>\n<li><span class=\"list-heading\">Water:</span> Conjure a quart of water (not &ldquo;inside&rdquo; objects or people), purify a gallon of water per casting, Push someone with a water spout (d6 Str or d8 with a raise).</li>\n</ul>\n<h3 class=\"red-label\">Modifiers</h3>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Power (+3</span>): The volume of air, earth, fire, or water affected is tripled.</li>\n</ul>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Weather (+5):</span> The caster can summon or dispel storms, bring a cooling rain, scorch the earth with a heatwave, or even bring snow to the hottest climes. <br />The caster can bring or disperse rain, snow, sun, and wind in about a five-mile radius. The severity depends on the local environment&mdash; a harsh desert might receive gentle rain while a rain forest gets a driving downpour. The effects take 10 minutes to create and last an hour.</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": true,
+        "actions": {
+          "skill": "faith",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "1",
+        "damage": "",
+        "range": "Sm",
+        "duration": "5",
+        "trapping": "A few simple gestures",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "effects": [],
+      "folder": "ytpBvGFSySGJiTqP",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-powers.voqd8J5qpyHdzyIU"
+        }
+      }
+    },
+    {
+      "_id": "ZaIhEqj7UAfr9r2K",
+      "name": "Entangle",
+      "type": "power",
+      "img": "systems/swade/assets/icons/power.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p><em>Entangle</em> allows the caster to restrain a target with ice, bands of energy, or other vine-like Trappings (Hardness 8). If successful, the target is Entangled. With a @Compendium[swpf-core-rules.swpf-rules.Raises]{raise}, he&rsquo;s Bound.</p>\n<p>Victims may try to break free on their turn as detailed under <strong>@Compendium[swpf-core-rules.swpf-rules.Bound and Entangled]{Bound &amp; Entangled}</strong>.</p>\n<h3 class=\"red-label\">Modifiers</h3>\n<ul>\n<li><span class=\"list-heading\">Area of Effect (+2/+3):</span> For +2 points the power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template or use the Stream Template.</li>\n<li><span class=\"list-heading\">Damage (+2):</span> Entangled targets take 2d4 damage at the end of their turn.</li>\n</ul>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Deadly (+4):</span> Entangled targets take 2d6 damage at the end of their turn.</li>\n</ul>\n<ul>\n<li><span class=\"list-heading\">Tough (+1</span>): The <em>entangling</em> material is particularly resilient. Increase its Hardness to 10.</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": true,
+        "actions": {
+          "skill": "faith",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "2",
+        "damage": "",
+        "range": "Sm",
+        "duration": "Instant",
+        "trapping": "Glue bomb, vines, handcuffs, webs.",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "effects": [],
+      "folder": "ytpBvGFSySGJiTqP",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-powers.3D88dwlD6V0xUquV"
+        }
+      }
+    },
+    {
+      "_id": "grXmNYUFycQTZeKP",
+      "name": "Environmental Protection",
+      "type": "power",
+      "img": "systems/swade/assets/icons/power.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Adventurers sometimes travel beneath the waves, through planes of fire, or other hazardous environments. This power protects them from crushing depths, scathing heat, intense cold, and even radiation.</p>\n<p><em>Environmental protection</em> allows the target to breathe, speak, and move at his normal Pace in an otherwise fatal environment. It protects him from intense heat, cold, radiation, pressure, and lack of oxygen.</p>\n<p>A @Compendium[swpf-core-rules.swpf-rules.Raises]{raise} increases the Duration to eight hours.</p>\n<h3 class=\"red-label\">Modifiers</h3>\n<ul>\n<li><span class=\"list-heading\">Additional Recipients (+1):</span> The power may affect more than one target for 1 additional Power Point each.</li>\n<li><span class=\"list-heading\">Environmental Resistance (+1):</span> The power now offers environmental resistance, reducing damage from one energy source (fire, cold, electricity, etc.) by 4 (6 with a raise).</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": true,
+        "actions": {
+          "skill": "faith",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "2",
+        "damage": "",
+        "range": "Sm",
+        "duration": "One hour",
+        "trapping": "A mark on the forehead, potions, gills.",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "effects": [],
+      "folder": "ytpBvGFSySGJiTqP",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-powers.y2iU8Nw36Q5Dar7J"
+        }
+      }
+    },
+    {
+      "_id": "urRU9RqEZGu4uhCX",
+      "name": "Protection",
+      "type": "power",
+      "img": "systems/swade/assets/icons/power.svg",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p><em>Protection</em> creates a field of energy or armor around a character, giving him 2 points of Armor. With a @Compendium[swpf-core-rules.swpf-rules.Raises]{raise}, the bonus is applied to Toughness instead (and therefore immune to @Compendium[swpf-core-rules.swpf-rules.Armor Piercing]{Armor Piercing} modifiers).</p>\n<p>Whether the <em>protection</em> is visible or not depends on the Trapping&mdash; this is entirely up to the caster.</p>\n<p><em>Protection</em> stacks with all other armor, natural or worn.</p>\n<h3 class=\"red-label\">Modifiers</h3>\n<ul>\n<li><span class=\"list-heading\">Additional Recipients (+1):</span> The power may affect additional targets at a cost of 1 Power Point each.</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": true,
+        "actions": {
+          "skill": "faith",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "2",
+        "damage": "",
+        "range": "Sm",
+        "duration": "5",
+        "trapping": "A mystical glow, hardened skin, ethereal armor, a mass of nanites",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "effects": [],
+      "folder": "ytpBvGFSySGJiTqP",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "3HvtK4sMp7flYKmT": 3,
+        "7ntJSLixH2Phv2jV": 3,
+        "n1UlSAlVrxvHczs2": 3
+      },
+      "flags": {
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.swpf-powers.DPOBFvSuvQgDWF2c"
+        }
+      }
+    },
+    {
+      "_id": "9w8BvwL4HhNCAYet",
+      "name": "Sickle",
+      "type": "weapon",
+      "img": "icons/weapons/sickles/sickle-hooked-purple.webp",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2,
+        "price": 3,
+        "equippable": false,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "Fighting",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "@str+d4",
+        "range": "",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "d4",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_ufebfq0tjxb",
+          "path": "Gear#/CF_SEP/Personal Weapons#/CF_SEP/Melee Weapons",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swpf-core-rules.swpf-gear.y1cX0PXy8NEiJS5G"
+        }
+      }
+    },
+    {
+      "_id": "XiQGFF1166VWodru",
+      "name": "Light Tunic or Jacket (torso, arms)",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-leather-brown.webp",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 11,
+        "price": 20,
+        "equippable": false,
+        "equipped": true,
+        "minStr": "d6",
+        "armor": 2,
+        "isNaturalArmor": false,
+        "locations": {
+          "head": false,
+          "torso": true,
+          "arms": true,
+          "legs": false
+        }
+      },
+      "effects": [],
+      "folder": "TFJjebD4dKeePGjM",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "n1UlSAlVrxvHczs2": 3,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.Jz4MFxFHbnrAJ1Kc"
+        }
+      }
+    },
+    {
+      "_id": "rs7Xsq8aSeSQCjGM",
+      "name": "Light Leggings (legs)",
+      "type": "armor",
+      "img": "icons/equipment/leg/pants-leather-tasset-brown.webp",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 8,
+        "price": 20,
+        "equippable": false,
+        "equipped": true,
+        "minStr": "d6",
+        "armor": 2,
+        "isNaturalArmor": false,
+        "locations": {
+          "head": false,
+          "torso": false,
+          "arms": false,
+          "legs": true
+        }
+      },
+      "effects": [],
+      "folder": "TFJjebD4dKeePGjM",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "n1UlSAlVrxvHczs2": 3,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.VM3csabKUhH7mPEp"
+        }
+      }
+    },
+    {
+      "_id": "4JIcUpiFHWBaKbz4",
+      "name": "Sling Stones",
+      "type": "gear",
+      "img": "icons/commodities/stone/paver-cobbles-blue.webp",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>Polished stones. 20 per lb.</p>\n</div>",
+        "notes": "10 stones",
+        "additionalStats": {},
+        "quantity": 20,
+        "weight": 0.05,
+        "price": 0.1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "effects": [],
+      "folder": "nWZ9MgJssgewPSQ6",
+      "sort": 400000,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.rbgKhItFHqLeX0Sj"
+        }
+      }
+    },
+    {
+      "_id": "FAWkZUFEMNTFXILw",
+      "name": "Adventurer's Kit",
+      "type": "gear",
+      "img": "modules/swpf-core-rules/assets/art/tokens/SWPF-A.webp",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> @Compendium[swpf-core-rules.swpf-gear.Backpack]{Backpack}, @Compendium[swpf-core-rules.swpf-gear.Bedroll]{bedroll}, @Compendium[swpf-core-rules.swpf-gear.Candle (1 hr, 2\\\" radius)]{candle}, @Compendium[swpf-core-rules.swpf-gear.Chalk]{chalk}, extra clothing, @Compendium[swpf-core-rules.swpf-gear.Flint and Steel]{flint and steel}, @Compendium[swpf-core-rules.swpf-gear.Grappling Hook]{grappling hook}, @Compendium[swpf-core-rules.swpf-gear.Lantern, bullseye (10\\\" cone)]{bullseye lantern}, @Compendium[swpf-core-rules.swpf-gear.Mirror, small steel]{small mirror}, @Compendium[swpf-core-rules.swpf-gear.Rope, hemp (10\\\"/20 yards)]{hemp rope}, @Compendium[swpf-core-rules.swpf-gear.Oil (1 pint)]{oil}, @Compendium[swpf-core-rules.swpf-gear.Shovel]{shovel}, @Compendium[swpf-core-rules.swpf-gear.Soap]{soap}, 3x @Compendium[swpf-core-rules.swpf-gear.Torch (1 hour, 4\\\" radius)]{torches}, @Compendium[swpf-core-rules.swpf-gear.Waterskin (filled)]{waterskin}, @Compendium[swpf-core-rules.swpf-gear.Whetstone]{whetstone}, 1 weeks meals.</p>\n</div>",
+        "notes": "Backpack, bedroll, candle, chalk, extra clothing, flint & steel, grappling hook, bullseye lantern, small mirror, hemp rope, oil, shovel, soap, 3x torches, waterskin, whetstone, 1 weeks meals",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 10,
+        "price": 50,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_whj62mng41",
+          "path": "Gear#/CF_SEP/Common Gear#/CF_SEP/Tools and Kits",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swpf-core-rules.swpf-gear.vq1JJ5z1IRKKU0NX"
+        }
+      }
+    },
+    {
+      "_id": "lrGdgenMuK2nlGvM",
+      "name": "Spell Component Pouch",
+      "type": "gear",
+      "img": "icons/containers/bags/coinpouch-leather-orange.webp",
+      "data": {
+        "description": null,
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2,
+        "price": 5,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_whj62mng41",
+          "path": "Gear#/CF_SEP/Common Gear#/CF_SEP/Tools and Kits",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swpf-core-rules.swpf-gear.JJkeAQwgT6Wlokcs"
+        }
+      }
+    },
+    {
+      "_id": "DuB5yHM0t2j99czn",
+      "name": "Thunderstone",
+      "type": "weapon",
+      "img": "icons/commodities/stone/stone-nugget-gold.webp",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> An enchanted rock that explodes with a deafening boom when struck against a hard surface. Anyone in the template must make a @Compendium[swpf-core-rules.swpf-rules.7 Trait Summaries]{Vigor} roll or be @Compendium[swpf-core-rules.swpf-rules.Shaken]{Shaken} as well as deafened for one hour.</p>\n</div>",
+        "notes": "An enchanted rock that explodes with a deafening boom when struck against a hard surface. Anyone in the template must make a Vigor roll or be Shaken as well as deafened for one hour.",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 30,
+        "equippable": false,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "",
+        "range": "3/6/12",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_wpqwclu8jfn",
+          "path": "Gear#/CF_SEP/Common Gear#/CF_SEP/Alchemical Items",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swpf-core-rules.swpf-gear.EoUVuCk4P4XkeBBf"
+        }
+      }
+    },
+    {
+      "_id": "BcaAOYLWKrryVtuL",
+      "name": "Potion of Minor Healing",
+      "type": "gear",
+      "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>Potions are alchemical concoctions enchanted with arcane energies. Drinking the potion (an action) activates the @Compendium[swpf-core-rules.swpf-rules.8 Powers]{power} contained within immediately. Each potion can only contain one power, and each potion contains only one dose.</p>\n<p>An individual can only benefit from one potion per round. If given more than one, roll randomly to see which one takes effect&mdash;all others are wasted.</p>\n<p>A potion can be administered to an @Compendium[swpf-core-rules.swpf-rules.Incapacitation]{Incapacitated} or unconscious person (as an action).</p>\n<p><strong>Craft: </strong>The crafting cost of a minor potion is equal to its @Compendium[swpf-core-rules.swpf-rules.8 Powers]{power&rsquo;s} Rank &times; the number of @Compendium[swpf-core-rules.swpf-edges.Power Points]{Power Points} it uses; then multiply that total by 25 gp. A major potion doubles the final result (For example, a potion of minor healing without any modifiers is Novice (1) &times; 3 power point &times; 25 gp = 75 gp). A potion's market price is double their cost to craft</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 150,
+        "equippable": false,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "effects": [],
+      "folder": "CSFBaxlkGEZCM8x7",
+      "sort": 1300000,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.GvhonVkh6bKEumJU"
+        }
+      }
+    },
+    {
+      "_id": "pCN86airMoOPlsZG",
+      "name": "Smoke Stick",
+      "type": "weapon",
+      "img": "icons/commodities/wood/kindling-stick-grey.webp",
+      "data": {
+        "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> An alchemically treated stick that creates thick smoke (Dark illumination) in a Medium Blast Template for one minute. Dissipates in strong wind in one round.</p>\n</div>",
+        "notes": "MBT.  An alchemically treated stick that creates thick smoke (Dark illumination) in a Medium Blast Template for one minute. Dissipates in strong wind in one round.",
+        "additionalStats": {},
+        "quantity": 5,
+        "weight": null,
+        "price": 20,
+        "equippable": false,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "",
+        "range": "3/6/12",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_wpqwclu8jfn",
+          "path": "Gear#/CF_SEP/Common Gear#/CF_SEP/Alchemical Items",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swpf-core-rules.swpf-gear.raCtXXQDLXYX18Vo"
+        }
+      }
+    },
+    {
+      "_id": "50aeMsqwvbuhPr9q",
+      "name": "Sling",
+      "type": "weapon",
+      "img": "icons/weapons/slings/slingshot-wood.webp",
+      "data": {
+        "description": null,
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": null,
+        "equippable": false,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "Athletics",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "@str+d4",
+        "range": "4/8/16",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "d4",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": true
+      },
+      "effects": [],
+      "folder": "CM7vnkIs5VASbXks",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "n1UlSAlVrxvHczs2": 3,
+        "7ntJSLixH2Phv2jV": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.5JB9ml1QYYSiFtTj"
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "7ntJSLixH2Phv2jV": 3
+  },
+  "flags": {
+    "cf": {
+      "id": "temp_twk9ut923tr",
+      "path": "Iconic Characters",
+      "color": "#a41e1e"
+    }
+  },
+  "_id": "wZeXxHyFw76ifngC"
+}
+ 
