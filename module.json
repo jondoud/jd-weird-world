@@ -3,8 +3,8 @@
 	"title": "JD Weird World Imported Data",
 	"description": "A module of imported book data: Edges, Hindrances, Gear, etc.",
 	"manifest": "https://raw.githubusercontent.com/jondoud/jd-weird-world/master/module.json",
-  	"download": "https://github.com/jondoud/jd-weird-world/releases/download/v1.4.7/module.zip",
-  	"version": "1.4.7",
+  	"download": "https://github.com/jondoud/jd-weird-world/releases/download/v1.5.0/module.zip",
+  	"version": "1.5.0",
   	"url": "https://github.com/jondoud/jd-weird-world",
 	"author": "Jon Doud",
 	"minimumCoreVersion": "0.7.0",
@@ -106,6 +106,14 @@
   					"system": "swade",
   					"module": "jd-weird-world"
 				},
+				{
+  					"name": "jd-vehicles",
+  					"label": "JD Vehicles",
+  					"path": "packs/jd-vehicles.db",
+  					"entity": "Actor",
+  					"system": "swade",
+  					"module": "jd-weird-world"
+				}, 
 				{
   					"name": "jd-equipment",
   					"label": "JD Equipment",

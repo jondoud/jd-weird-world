@@ -1,0 +1,11 @@
+Name,Size,Scale,Handling,TopSpeed,Toughness,Armor,Wounds,Crew,Passengers,Cost,Examples
+Autogyro,4,4,1,110,10,2,4,1,1,"$10,000",Cierva C.30
+Racing Plane,4,4,2,300,10,2,3,1,0,"$25,000",Gee Bee R-1
+Biplane,4,4,1,113,10,1,4,1,1,$2000,Sopwith Camel
+Fighter Plane,6,4,1,313,10,2,4,1,0,Military,Curtiss P-36
+Fighter Bomber,7,4,1,211,10,2,4,2,0,Military,Junkers 87D Stuka
+Utility Plane,9,5,0,225,11,2,5,2,6,"$50,000",Beechcraft Model 18
+Cargo Plane,11,5,-1,230,15,2,5,2,30,"$35,000",Douglas DC-3
+Sea Plane,9,5,0,200,15,2,5,2,8,"$25,000",Grumman G-21 “Goose”
+Airliner,11,5,-1,210,11,2,7,2,12,"$35,000",Douglas DC-1
+Zeppelin,20,6,-2,85,15,2,5,50,70,"$750,000",LZ-129 Hindenburg

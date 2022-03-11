@@ -1,0 +1,36 @@
+{
+  "name": "{{Name}}",
+  "type": "vehicle",
+  "data": {
+    "size": "{{Size}}",
+    "scale": "{{Scale}}",
+    "handling": "{{Handling}}",
+    "cost": "{{Cost}}",
+    "topspeed": "{{TopSpeed}}",
+    "description": "<div class=\"swade-core\"><p>{{Examples}}</p></div>",
+    "toughness": {
+      "total": "{{Toughness}}",
+      "armor": "{{Armor}}"
+    },
+    "wounds": {
+      "value": 0,
+      "max": "{{Wounds}}",
+      "ignored": 0
+    },
+    "crew": {
+      "required": {
+        "value": "{{Crew}}",
+        "max": "{{Crew}}"
+      },
+      "optional": {
+        "value": "{{Passengers}}",
+        "max": "{{Passengers}}"
+      }
+    },
+    "driver": {
+      "id": "",
+      "skill": "Boating",
+      "skillAlternative": ""
+    }
+  }
+} 
